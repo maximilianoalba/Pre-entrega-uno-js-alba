@@ -93,7 +93,7 @@ prompt("ingrese codigo de seguridad");
 total = promocion * cantidad;
 
 alert(
-  `El total de su Compra es: $${total}, el  mismo de descontara de su tarjeta ingresada`
+  `El total de su Compra es: $${total}, el  mismo se descontara de su tarjeta ingresada`
 );
 
 alert(`!Gracias por visitar Sabor a Rico ${nombre}¡`);
