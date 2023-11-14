@@ -1,6 +1,6 @@
 /*creamos un pedido online de un local de comidas*/
 let nombre;
-let metodoPago ;
+let metodoPago;
 let menu;
 let pedido;
 let continuar;
@@ -16,7 +16,7 @@ const salir = "S";
 const SI = "si";
 const NO = "no";
 
-nombre = prompt(`Bienvenidos a Sabor a Rico, ingrese su  nombre`);
+nombre = prompt("Bienvenidos a Sabor a Rico, ingrese su  nombre");
 
 do {
   pedido = prompt(
@@ -74,9 +74,6 @@ do {
       );
     }
   }
-  continuar = prompt(
-    "Desea volver a cargar otra promo? si/no"
-  ).toLocaleLowerCase();
 } while (continuar === SI);
 
 metodoPago = prompt(
